@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <script src="https://unpkg.com/ag-grid@15.0.0/dist/ag-grid.js"></script>
+  <link rel="stylesheet" href="https://unpkg.com/ag-grid/dist/styles/ag-grid.css">
+  <link rel="stylesheet" href="https://unpkg.com/ag-grid/dist/styles/ag-theme-balham.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css">
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.bundle.min.js"></script>
+  <script src="https://code.highcharts.com/stock/highstock.js"></script>
+  <script src="https://code.highcharts.com/stock/modules/exporting.js"></script>
+  <script src="https://code.highcharts.com/stock/modules/export-data.js"></script>
+  <link rel="stylesheet" type="text/css" href="src/css/xtx.css">
+</head>
+<body>
+  <img src="src/images/logo-large-bw.png" class="intro-img"/>
+
+  <div class="container">
+  <div class="row">
+    <div class="col-sm">
+      <h1 class="intro-text white-text">Current FX pricing</h1>
+      <div id="myGrid" class="ag-theme-balham grid"></div>
+    </div>
+    <div class="col-sm">
+       <h1 class="intro-text white-text">Historic FX pricing</h1>
+       <div id="highcharts"></div>
+    </div>
+  </div>
+</div>
+
+<script type="module" src="src/js/xtx.js"></script>
+
+</body>
+</html>

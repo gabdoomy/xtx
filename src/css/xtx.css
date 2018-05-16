@@ -1,0 +1,42 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'FFDINWebPro', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  font-size: 16px;  
+  background: #00A4C0;
+}
+
+
+.intro-text {
+  font-size: 29px;
+  line-height: 32px;
+  font-family: 'FFDINWebProMedium';
+  text-align: center;
+}
+
+.white-text {
+  color: white;
+}
+
+.intro-img {
+  vertical-align: middle;
+  height: 100px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 20px 20px;
+}
+
+.grid {
+  height: 400px;
+  max-width: 600px;
+  margin: auto;
+}
+
+#highcharts {
+  min-width: 310px;
+  max-width: 800px;
+  height: 400px;
+  margin: 0 auto;
+}
